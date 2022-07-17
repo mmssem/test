@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />      
+        <br></br><br></br>
+        <p>
+          (멍멍쌤) 리엑트 공부중입니다.
+        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        
       </header>
     </div>
   );
